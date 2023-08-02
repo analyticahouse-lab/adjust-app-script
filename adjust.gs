@@ -5,8 +5,8 @@ function main() {
   var bearerToken = ''; //  --> Auth API Token
   var appTokenIn = '';   //  --> App Token
   var datePeriod = '2023-06-01:2023-06-30';
-  var metrics = 'installs';
-  var dimensions = 'day,os_name,store_id,partner,platform'; //  See dimension list here: --> https://help.adjust.com/en/article/csv-reports-endpoint
+  var metrics = 'installs'; // See metric list heere: --> https://help.adjust.com/en/article/csv-reports-endpoint#metrics
+  var dimensions = 'day,os_name,store_id,partner,platform'; //  See dimension list here: --> https://help.adjust.com/en/article/csv-reports-endpoint#dimensions
   var targetSheetId = '';  //  --> Google Sheet ID
   var targetSheetName = ''; //  --> Google Sheet Name
 
