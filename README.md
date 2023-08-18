@@ -11,7 +11,7 @@ Replace the following variables with your actual data:
 
 ```
 curl --location --request GET 'https://dash.adjust.com/control-center/reports-service/events?event__contains=purchase' \
---header 'Authorization: Bearer <AUTHTOKEN>'
+--header 'Authorization: Bearer <bearerToken>'
 ```
 
 ### Set Up Target Google Sheet:
