@@ -7,6 +7,13 @@ Replace the following variables with your actual data:
 - **targetSheetId**: The ID of the target Google Sheet where the data will be written.
 - **targetSheetName**: The name of the target sheet in the target Google Sheet.
 
+## Get Event Names 
+
+```
+curl --location --request GET 'https://dash.adjust.com/control-center/reports-service/events?event__contains=purchase' \
+--header 'Authorization: Bearer <AUTHTOKEN>'
+```
+
 ### Set Up Target Google Sheet:
 Ensure you have the target Google Sheet ready to receive the data. If the sheet doesn't exist, the function will create a new one with the specified targetSheetName.
 
